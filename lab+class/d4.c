@@ -58,7 +58,7 @@ int main(){
 */
 
 // print fibonacci series up to n terms using for loop
-
+/*
 int main(){
     int n, i;
     int t1 = 0, t2 = 1, nextTerm;
@@ -74,3 +74,6 @@ int main(){
     printf("\n");
     return 0;
 }
+*/
+
+// 

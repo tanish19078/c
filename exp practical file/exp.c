@@ -1,4 +1,42 @@
 #include <stdio.h>
+//exp1: print hello world
+/*
+
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+*/
+
+// exp2
+/* 
+#include <stdio.h>
+
+int main() {
+int num;
+printf("Enter a number: ");
+scanf("%d", &num);
+printf("You entered: %d", num);
+return 0;
+}
+*/
+#include <stdio.h>
+int main() {
+    int num1, num2, sum;
+    
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+    
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+    
+    sum = num1 + num2;
+    printf("Sum of %d and %d is: %d", num1, num2, sum);
+    return 0;
+}
+
 
 // area and circumference of circle by input radius
 /*
@@ -28,7 +66,7 @@ int main(){
 */
 
 // (i) V = u + at. (ii) S = ut+1/2at 2 (iii) T=2*a+√b+9c (iv) H=√b 2 +p 2
-
+/* 
 int main(){
     float V,u,a,t,S,T,H,b,c,p;
     scanf("%f %f %f %f %f %f %f", &u,&a,&t,&b,&c,&p);
@@ -42,3 +80,7 @@ int main(){
     printf("H: %.2f\n", H);
     return 0;
 }
+    */
+
+
+
